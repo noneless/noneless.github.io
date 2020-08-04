@@ -31,6 +31,18 @@ const ap = new APlayer({
             theme: '#ebd0c2' //切换到此音频时的主题色，比上面的 theme 优先级高
         },
         {
+            name: '什么叫做一厢情愿', //音频名称
+            artist: 'DJ Mr.Zi', //音频艺术家
+            url: 'http://music.163.com/song/media/outer/url?id=546035454.mp3', //音频外链
+            cover: 'http://p3.music.126.net/K24oGeF8GvgUX3cEWJjcTA==/109951163183923296.jpg', //音频封面
+        },
+        {
+            name: '我告诉你什么事最可悲', //音频名称
+            artist: 'Jones & Brock&RTRemix', //音频艺术家
+            url: 'http://music.163.com/song/media/outer/url?id=550453774.mp3', //音频外链
+            cover: 'http://p3.music.126.net/IHzG7x8x9-KpoScvpU2SNg==/109951163231260063.jpg', //音频封面
+        },
+        {
             name: 'Five Hours', //音频名称
             artist: 'Deorro', //音频艺术家
             url: 'http://music.163.com/song/media/outer/url?id=28263911.mp3', //音频外链
