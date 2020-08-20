@@ -193,17 +193,17 @@
     <h3>留言:</h3>
     <div id="valine"></div>
     <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-    <script src='//unpkg.com/valine@1.1.7/dist/Valine.min.js'></script>
+    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
     <script>
     new Valine({
         el: '#valine',
+        notify: true,
+        verify: false,
         app_id: '9zY5OKuMCF37Rul2JpUlt5vV-gzGzoHsz',
         app_key: 'gDQfv3Dl6Y9yilCbL1LAeJqX',
-        notify: false,
-        verify: false,        
         placeholder: 'Just say something...',
-        path: window.location.pathname,
-        avatar: 'wavatar' 
+        path:window.location.pathname,
+        avatar:'mm' 
     });
     </script>
 
