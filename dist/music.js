@@ -15,31 +15,11 @@ const ap = new APlayer({
     
     audio: [ //音频信息,包含以下
         {
-            name: '紫霞仙子（余轩Original Mix)', //音频名称
-            artist: 'RT,余轩', //音频艺术家
-            url: 'http://music.163.com/song/media/outer/url?id=555820893.mp3', //音频外链
-            cover: 'http://p3.music.126.net/XZFM1XrG0C9fkIz2vrFt-Q==/109951163268930297.jpg', //音频封面
+            name: 'Der letzte Mohikaner', //音频名称
+            artist: 'Leo Rojas', //音频艺术家
+            url: 'http://music.163.com/song/media/outer/url?id=16313119.mp3', //音频外链
+            cover: 'http://p2.music.126.net/cmS4Ksoh8azsQ-wX2RMXyQ==/109951163444537212.jpg', //音频封面
             theme: '#ebd0c2' //切换到此音频时的主题色，比上面的 theme 优先级高
-        },
-        {
-            name: '英雄联盟之艾瑞莉娅篇', //音频名称
-            artist: '宋瑞 / 圈妹 / 小可', //音频艺术家
-            url: 'http://ws.stream.qqmusic.qq.com/C400003rZdvH3HsIA3.m4a?guid=1758433068&vkey=6D7DCDAEC5E23356909A8B66048436778F7870ED8C9B14CB5543483F3FAC760727A25403DDC415589845F69836260D0B7D56385441E1ED58&uin=0&fromtag=66', //音频外链
-            cover: 'http://y.gtimg.cn/music/photo_new/T002R300x300M000000Nd78t4LPg26.jpg', //音频封面
-            lrc: '英雄联盟之艾瑞莉娅篇', //音频歌词，配合上面的lrcType使用
-            theme: '#ebd0c2' //切换到此音频时的主题色，比上面的 theme 优先级高
-        },
-        {
-            name: '什么叫做一厢情愿', //音频名称
-            artist: 'DJ Mr.Zi', //音频艺术家
-            url: 'http://music.163.com/song/media/outer/url?id=546035454.mp3', //音频外链
-            cover: 'http://p3.music.126.net/K24oGeF8GvgUX3cEWJjcTA==/109951163183923296.jpg', //音频封面
-        },
-        {
-            name: '我告诉你什么事最可悲', //音频名称
-            artist: 'Jones & Brock&RTRemix', //音频艺术家
-            url: 'http://music.163.com/song/media/outer/url?id=550453774.mp3', //音频外链
-            cover: 'http://p3.music.126.net/IHzG7x8x9-KpoScvpU2SNg==/109951163231260063.jpg', //音频封面
         },
         {
             name: 'Five Hours', //音频名称
