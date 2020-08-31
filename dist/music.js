@@ -15,18 +15,17 @@ const ap = new APlayer({
     
     audio: [ //音频信息,包含以下
         {
-            name: 'Der letzte Mohikaner', //音频名称
-            artist: 'Leo Rojas', //音频艺术家
-            url: 'http://music.163.com/song/media/outer/url?id=16313119.mp3', //音频外链
-            cover: 'http://p2.music.126.net/cmS4Ksoh8azsQ-wX2RMXyQ==/109951163444537212.jpg', //音频封面
+            name: 'Midnight Sky', //音频名称
+            artist: 'Zachary Bruno', //音频艺术家
+            url: 'http://music.163.com/song/media/outer/url?id=32320821.mp3', //音频外链
+            cover: 'http://p4.music.126.net/NV8L4tvWpyrcB7OY5G170A==/109951164849177543.jpg', //音频封面
             theme: '#ebd0c2' //切换到此音频时的主题色，比上面的 theme 优先级高
         },
         {
-            name: 'Five Hours', //音频名称
-            artist: 'Deorro', //音频艺术家
-            url: 'http://music.163.com/song/media/outer/url?id=28263911.mp3', //音频外链
-            cover: 'http://p3.music.126.net/SnUXxv_U8Dr3BRK4tCSeKQ==/109951164642751154.jpg', //音频封面
-            lrc: 'Five Hours', //音频歌词，配合上面的lrcType使用
+            name: 'Dance You Pretty', //音频名称
+            artist: 'Chad Lawson', //音频艺术家
+            url: 'http://music.163.com/song/media/outer/url?id=1215166.mp3', //音频外链
+            cover: 'http://p3.music.126.net/afiWlxs-DewqQntQ7F8nsQ==/6621259022666498.jpg', //音频封面
             theme: '#ebd0c2' //切换到此音频时的主题色，比上面的 theme 优先级高
         }
     ]
