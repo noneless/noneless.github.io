@@ -22,13 +22,5 @@ const ap = new APlayer({
             cover: 'http://p4.music.126.net/NV8L4tvWpyrcB7OY5G170A==/109951164849177543.jpg', //音频封面
             theme: '#ebd0c2' //切换到此音频时的主题色，比上面的 theme 优先级高
         }
-//,
-   //     {
-    //        name: 'Dance You Pretty', //音频名称
-   //         artist: 'Chad Lawson', //音频艺术家
-    //        url: 'http://music.163.com/song/media/outer/url?id=1215166.mp3', //音频外链
-    //        cover: 'http://p3.music.126.net/afiWlxs-DewqQntQ7F8nsQ==/6621259022666498.jpg', //音频封面
-     //       theme: '#ebd0c2' //切换到此音频时的主题色，比上面的 theme 优先级高
-    //    }
     ]
 });
