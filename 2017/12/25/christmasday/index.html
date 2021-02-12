@@ -199,8 +199,8 @@
     <hr />
     <h3>留言:</h3>
     <div id="valine"></div>
-    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+    <script src="/dist/av-min.js"></script>
+    <script src='/dist/Valine.min.js'></script>
     <script>
     new Valine({
         el: '#valine',
@@ -208,9 +208,14 @@
         verify: false,
         app_id: 'FcJ1e9WPDS0tyTCI8CzOgTgO-MdYXbMMI',
         app_key: '11XdF95OE11lIbpy8yyKyDGx',
-        placeholder: 'Just say something...',
+        placeholder: 'Keep Healthy and Keep Wealthy!',
         path:window.location.pathname,
-        avatar:'mm' 
+        avatar: 'mm',
+		visitor: true,
+		pagesize: 15,
+		enableQQ: true,
+		tagMeta: ["博主","小伙伴","访客"],
+		master: ["0138b18d851b5dd65213da398afd5a57"]
     });
     </script>
 
@@ -236,10 +241,16 @@
 
 <!-- Disqus Comments -->
 
+<!-- totop function -->
 <button onclick="topFunction()" id="myBtn" title="回顶部">返回顶部</button>
 
 
-<SCRIPT type=text/javascript src="/js/totop.js"></SCRIPT>
+<SCRIPT type=text/javascript src="/dist/totop.js"></SCRIPT>
+
+<!-- bottom fish -->
+<div id="jsi-flying-fish-container" class="container"></div>
+<script src='/dist/fish.js'></script>
+
 
 
 </body>
