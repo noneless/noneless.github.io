@@ -298,7 +298,10 @@ h5, h6          { font-weight: bolder }
 /*  Home/portfolio  */
 .main .work{
     display: block;
-    width: 33.33333333333333%;
+    width: 33%;
+
+	margin: 2px;
+
     height: auto;
     float: left;
     position: relative;
