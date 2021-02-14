@@ -309,7 +309,8 @@ h5, h6          { font-weight: bolder }
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     position: relative;
-    z-index: 55;
+    /*z-index: 55; */
+	z-index: 0;
     background: #f6f6f6;
     clear: both;
     min-height: 100vh;
