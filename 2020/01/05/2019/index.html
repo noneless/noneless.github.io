@@ -212,7 +212,8 @@
     <h3>留言:</h3>
     <div id="valine"></div>
     <script src="//code.bdstatic.com/npm/leancloud-storage@4.12.0/dist/av-min.js"></script>
-    <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+    <script src="//cdn.jsdelivr.net/gh/HCLonely/Valine@latest/dist/Valine.min.js"></script>
+    /* <script src="//unpkg.com/valine/dist/Valine.min.js"></script> */
     <script>
     new Valine({
         el: '#valine',
@@ -223,8 +224,9 @@
         serverURLs:'https://fcj1e9wp.api.lncldglobal.com',
         placeholder: 'Keep Healthy and Keep Wealthy!',
         path:window.location.pathname,
-        avatar: 'wavatar',
+        avatar: 'identicon',
 		visitor: true,
+        recordIP: true,
 		pagesize: 15,
 		enableQQ: true,
 		tagMeta: ["Admin","Friend","Guest"],
